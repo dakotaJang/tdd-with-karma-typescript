@@ -1,0 +1,25 @@
+{
+  "name": "karma-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rmdir /Q /S dev | tsc -d -p . --outDir dev | webpack -d",
+    "test": "concurrently \"tsc -d -p . --outDir dev --watch\" \"webpack -d --watch\" \"karma start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "concurrently": "^3.5.1",
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-jasmine-html-reporter": "^1.0.0",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es6",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "rootDir": "./",
+    "types": [
+      "jasmine"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  },
+  "include": [
+    "src/**/*",
+    "test/**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*",
+    "**/*.spec.ts"
+  ]
+}
