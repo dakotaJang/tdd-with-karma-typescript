@@ -3,8 +3,6 @@
 The idea here is to set up a TDD environment for typescript.
 This environment is created with developing web-components in mind but it can be used for other development as well.
 
-Check the <a href="https://github.com/dakotaJang/tdd-with-karma-typescript/tree/sample">sample</a> branch as a simple example with web-components.
-
 ## Technologies Used
 - Karma: run tests on browser.
 - Typescript: write strongly typed codes.
